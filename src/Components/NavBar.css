@@ -1,0 +1,24 @@
+.navbar-brand{
+    width: 200px!important;
+}
+.navbar-brand a img{
+    width: 150px;
+}
+
+.Nav-List .nav-link a{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+    line-height: 1.8;
+    color: black;
+
+}
+.Nav-List .nav-link a:hover{
+    color: #084AF3;
+}
+.active{
+    background-color: #084AF3;
+    padding: 8px 10px;
+    border-radius: 3px;
+    color: white!important;
+}

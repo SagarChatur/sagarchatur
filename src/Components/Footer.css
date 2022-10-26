@@ -1,0 +1,37 @@
+/* Footer Css */
+.Footer{
+    padding: 20px 0px;
+    background-color: #F8F9FA;
+}
+.FooterLinks a{
+    text-decoration: none;
+}
+.FooterLogo{
+   width: 180px;
+}
+.copytxt{
+    text-align: right;
+    font-size: 16px;
+}
+.SocialIco img{
+    width: 35px;
+    padding: 3px;
+
+}
+.iconcont {
+    display: flex;
+ }
+
+@media screen and (max-width:600px) {
+    .copytxt{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .FooterLogo{
+        padding-top: 20px;
+     }
+     .iconcont{
+        text-align: center;
+     }
+}

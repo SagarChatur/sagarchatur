@@ -1,0 +1,29 @@
+/* Portfolio Section */
+.PortfolioSection{
+    padding:8% 0px;
+}
+
+.PortfolioSection h2{
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+}
+.PortfolioSection p{
+    text-align: center;
+}
+.Project img{
+    width: 100%;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.PortfolioSection .ProjectsList{
+    padding-top: 20px;
+}
+@media screen and (max-width:850px) {
+    .PortfolioSection{
+        padding:5% 0px;
+    }
+    .PortfolioSection{
+        padding:100px 0px 50px 0px;
+    }
+}

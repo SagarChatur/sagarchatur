@@ -1,0 +1,178 @@
+/* Hero Section Css*/
+.Hero {
+    padding: 80px 0px 40px 0px;
+}
+.Hero .ProfileImage{
+    width: 95%;
+    margin-top: -30px;
+}
+.HeroContent{
+    padding: 8% 0px;
+
+}
+.HeroContent h6{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.HeroContent h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.Animatedh2 {
+    line-height: 1.6;
+    font-size: 28px;
+    color: #000000;
+    display: flex;
+    justify-content: left;
+  }
+  .Animated_Title::before {
+    content: "Web Designer & Developer";
+    animation: animate infinite 10s;
+  }
+  
+  @keyframes animate {
+    0% {
+      content: "Web Designer & Developer";
+    }
+  
+    20% {
+      content: "Front-End Developer";
+    }
+  
+    40% {
+      content: "React JS Developer";
+    }
+  
+    60% {
+      content: "WordPress Developer";
+    }
+    80%{
+        content: "UI / UX Designer";
+    }
+  }
+  @media screen and (max-width:600px) {
+    .Animatedh2 {
+        font-size: 22px;
+        justify-content: center;
+      }
+  }
+  
+
+.HeroContent p{
+    line-height: 1.8;
+}
+
+
+@media screen and (max-width:600px) {
+    .HeroContent h6{
+        font-size: 28px;
+        text-align: center;
+    }
+    .HeroContent h1{
+        text-align: center;
+    }
+    .HeroContent p{
+        text-align: center;
+    }
+    .btngrp{
+        text-align: center;
+    }
+}
+
+
+
+
+/* About Section Css*/
+.About{
+    padding-top: 20px;
+    background-color: #F8F9FA;
+    background-image: url("/src/Images/hey.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.About h2{
+    font-weight: 600;
+    line-height: 1.6;
+}
+.About p{
+    line-height: 1.8;
+}
+.About img{
+    width: 100%;
+    /* margin: -50px 0px; */
+}
+.AboutContent{
+    padding: 8% 0px;;
+}
+
+@media screen and (max-width:850px) {
+    .About{
+        padding: 20px 20px 20px 20px;
+        background-color: #F8F9FA;
+        background-image: url("/src/Images/hey.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:contain;
+    }
+    .AboutContent{
+        padding: 8% 500px 8% 0px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .About{
+        padding: 20px 20px 480px 20px!important;
+        background-color: #F8F9FA;
+        background-image: url("/src/Images/hey.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:contain;
+    }
+    .AboutContent{
+        padding: 8% 10px!important;
+    }
+
+}
+
+
+
+
+
+/* Counter Section */
+.counter
+{
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    color: #084AF3;
+    text-align: center;
+    line-height: 1;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 16px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.SocialIcon img{
+    width: 35px;
+    margin-right: 10px;
+}
+
+

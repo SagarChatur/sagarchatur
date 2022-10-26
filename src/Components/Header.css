@@ -1,0 +1,10 @@
+.HeaderSection{
+    padding: 120px 0px 50px 0px;
+}
+.HeaderSection h2{
+    font-weight: 600;
+    line-height: 1.6;
+}
+.HeaderSection p{
+    line-height: 1.8;
+}

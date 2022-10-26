@@ -1,0 +1,84 @@
+/* Hero Section*/
+.HeroSection {
+    padding: 200px 0px 0px 0px;
+}
+.AboutImageSection img{
+    width:90%;
+}
+.HeroSection .AboutContent{
+    padding: 0px 0px 5% 0px;
+}
+.HeroSection .AboutContent h2{
+    font-weight: 600;
+}
+.HeroSection .AboutContent h4{
+    color: #084AF3;    
+}
+.HeroSection .AboutContent h5 a{
+    text-decoration: none;
+    line-height: 2;
+}
+.HeroSection .AboutContent p{
+    line-height: 1.8;
+}
+@media screen and (max-width:600px) {
+    .HeroSection {
+        padding: 100px 0px 30px 0px;
+    }
+    .AboutImageSection img{
+        width:100%;
+    }
+    .HeroSection .AboutContent{
+        padding: 5% 20px!important;
+    }
+}
+
+
+/* Education Section*/
+.Education{
+    padding: 5% 0px;
+    background-color: #F8F9FA;
+}
+.EduContent{
+    padding: 5% 0px;
+}
+.Education .EducationVector{
+    width: 100%;
+    padding-left: 50px;
+}
+.Education h4{
+    font-weight: 600;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card-horizontal .EDLogo{
+    width: 100px;
+    padding-top: 10px;
+
+}
+
+@media screen and (max-width:600px) {
+    .EduContent{
+        padding: 5% 20px;
+    }
+    .card-horizontal .EDLogo{
+        width: 80px;
+        padding-top: 10px;
+    }
+    .Education .EducationVector{
+        padding-left: 0px;
+    }
+    .card h5{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .card h6{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+  

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500;600&display=swap');
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color:black
+}
+h1, h2, h3, h4, h5, h5{
+  font-family: 'Poppins', sans-serif;
+}
+.primary{
+  background: transparent;
+  color: #FFFFFf;
+  border-color: #084AF3;
+  background-color: #084AF3;
+  border-radius: 3px;
+  padding: 10px 30px;
+}
+.primary:hover{
+  background: #ffffff;
+  color: #084AF3;
+  border-color: #084AF3;
+
+}
+.secondary{
+  background: transparent;
+  color: #084AF3;
+  border-color: #084AF3;
+  border-radius: 3px;
+  padding: 10px 30px;
+}
+.secondary:hover{
+  background: #084AF3;
+  color: white;
+  border-color: #084AF3;
+}

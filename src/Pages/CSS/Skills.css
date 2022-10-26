@@ -1,0 +1,77 @@
+/* Skill intro*/
+
+.Skillssection{
+padding: 5% 0px;
+}
+.SkillIntro img{
+    width: 100%;
+}
+.Skillssection h4{
+    font-weight: 600;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+.Skillbars{
+    padding: 5% 100px 0px 0px;
+}
+.Skillbars .progress{
+    height: 25px;
+    margin-bottom: 22px;
+    border-radius: 50px;
+}
+.Skillbars .progress-bar{
+    background-color: #084AF3;
+    text-align: left;
+    padding-left: 30px;
+}
+@media screen and (max-width:600px) {
+    .Skillssection{
+        padding: 5% 0px 10% 0px!important;
+        }
+    .Skillbars{
+        padding: 0px 20px 0px 20px!important;
+    }
+}
+
+
+
+/* Skills Section */
+.SkillsSection{
+    padding:8% 0px 2% 0px;
+}
+.SkillsSection h2{
+    font-weight: 600;
+    line-height: 1.6;
+}
+.SkillsSection .SkillBox{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border: 20px solid white;
+    border-radius: 15px;
+}
+.SkillsSection .SkillBox h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.SkillsSection .SkillBox p{
+    line-height: 1.6;
+}
+.SkillsSection .SkillBox img{
+    width: 150px;
+}
+@media screen and (max-width:850px) {
+    .SkillsSection{
+        padding:100px 20px 50px 20px;
+    }
+    .SkillsSection .SkillBox{
+        margin-top: 20px;
+        padding: 15px;
+        border: 10px solid white;
+    }
+    .SkillsSection .SkillBox h4{
+        font-size: 18px;
+    }
+
+}
